@@ -3,3 +3,4 @@ Simple, easy to use Parallax Effect Script
 
 
 Tutorial link : http://www.webcodo.net/how-to-create-a-simple-parallax-effect-using-css-and-jquery/
+Demo link : http://localhost/webcodo/script/parallax-effect/
