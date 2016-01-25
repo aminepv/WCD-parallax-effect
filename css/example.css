@@ -1,0 +1,43 @@
+@font-face {font-family: NexaBold;
+    src: url('../font/Nexa_Bold.eot');
+    src: url('../font/Nexa_Bold.eot?#iefix') format('embedded-opentype'),
+         url('../font/Nexa_Bold.woff') format('woff'),
+         url('../font/Nexa_Bold.ttf') format('truetype'),
+         url('../font/Nexa_Bold.svg#OpenSansLight') format('svg');
+}
+
+.clear{clear: both;}
+.tuto-cnt{width: 360px; height:auto; min-height: 400px; margin: 40px auto; overflow: auto; }
+.tuto-cnt p{ line-height: 18px; font-size: 14px;}
+*[class^="prlx"] {
+  position: absolute;
+  width: 100%;
+  height: 300%;
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.prlx-1{ background: url('../images/bg2.jpg') repeat; }
+.prlx-2{ background: url('../images/bg.jpg') repeat; }
+
+.section-one h2, .section-three h2{ 
+	font: bold 38px helvetica, sans-serif;
+	color: white;
+	position: absolute;
+	bottom:90px; left: 200px;
+	padding:10px;
+	background-color: #232323;
+}
+
+.section-one, .section-two, .section-three{
+	width: 100%; min-height: 500px;
+	position: relative;
+	overflow: hidden;
+}
+.section-one, .section-three{
+}
+p{
+	width:450px;
+	margin: 10px auto;
+	font: 14px helvetica, sans-serif; line-height: 18px;
+}
